@@ -21,4 +21,7 @@ jobs:
         run: terraform validate
       - name: Terraform plan
         run: terraform  plan
-      
+      - name: Terraform APPLY
+        run: terraform  apply
+      - name: Terraform destroy
+        run: terraform  destroy
